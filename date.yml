@@ -1,0 +1,6 @@
+-
+ name: date playbooks
+ hosts: servers
+ tasks:
+    - name: date task
+      command: date
